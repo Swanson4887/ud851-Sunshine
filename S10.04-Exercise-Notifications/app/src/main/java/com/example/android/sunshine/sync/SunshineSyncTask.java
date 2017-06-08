@@ -88,7 +88,7 @@ public class SunshineSyncTask {
                 if (timeSinceLastNotification >= DateUtils.DAY_IN_MILLIS) {
                     oneDayPassedSinceLastNotification = true;
                 }
-//              TODO (15) If more than a day have passed and notifications are enabled, notify the user
+// more than a day have passed and notifications are enabled, notify the user
                 if (notificationsEnabled && oneDayPassedSinceLastNotification) {
                     NotificationUtils.notifyUserOfNewWeather(context);
                 }
